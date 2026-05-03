@@ -316,7 +316,6 @@ CC BY-SA 4.0 - Use freely, share improvements, credit the source.
 - **The Story (Manifesto):** [MANIFESTO.md](MANIFESTO.md)
 - **P-State Deep Dive:** [P-STATE-UNLOCK.md](P-STATE-UNLOCK.md)
 - **Configs:** [configs/](configs/)
-- **Community Discussion:** [GitHub Discussions](link-when-published)
 
 ---
 
