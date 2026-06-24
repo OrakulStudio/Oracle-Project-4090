@@ -59,6 +59,27 @@ Run as Administrator before each training session.
 
 ## Results
 
+### ⚡ Benchmark & Performance Verification (FLUX.2-Dev / RTX 4090)
+
+| LoRA Configuration | Speed (s/it) | VRAM Memory Status ||
+| :--- | :--- | :--- | :--- |
+| **Rank 128 (Optimized)** | **6.70s / 6.50s** | 24 GB (Zero OOM / Stable) | 
+| **Rank 512 (Deep Gesture)** | **8.97s** | 24 GB (Double Buffered) | 
+| **Rank 1024 (Extreme)** | **22.45s** | 24 GB (Full 8-bit Stack Forced) |
+| **Rank 1280 (Extreme)** | **65.80s** | 24 GB (Full 8-bit Stack Forced) | 
+
+---
+---
+## Benchmark - Flux2-dev, RTX 4090, Rank 128
+[orakul_report_folder_logs](https://github.com/OrakulStudio/AI-Toolkit-Windows11/tree/main/orakul_report)
+
+<img width="3840" height="2160" alt="10" src="https://github.com/user-attachments/assets/b9e5c210-ac1a-4d96-b142-d0611de913f1" />
+<img width="3840" height="2160" alt="3" src="https://github.com/user-attachments/assets/c107b7e7-ed27-485b-a449-28507ba0afef" />
+<img width="3840" height="2160" alt="8" src="https://github.com/user-attachments/assets/ac55b44c-bb40-404c-99f7-ac6ba547469c" />
+
+[orakul_report.txt](https://github.com/OrakulStudio/AI-Toolkit-Windows11/blob/main/orakul_report/orakul_report.txt)
+
+
 **Hardware:** RTX 4090 24GB, i9-13900K, 128GB RAM  
 **Model:** FLUX.2-dev (32B parameters)  
 **Framework:** Ostris AI-Toolkit
